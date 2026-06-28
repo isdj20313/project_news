@@ -1,0 +1,45 @@
+# ===================================================
+# Git 무시 파일 목록
+# 아래 파일/폴더는 GitHub에 업로드되지 않습니다
+# ===================================================
+
+# 환경변수 파일 (API 키 등 민감 정보 포함)
+.env
+
+# Python 가상환경 폴더
+venv/
+env/
+.venv/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python 빌드 결과물
+*.egg-info/
+dist/
+build/
+
+# 운영체제 자동 생성 파일
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# IDE 설정 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 테스트 커버리지 리포트
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 로그 파일
+*.log
+
+# newspaper3k 캐시
+.newspaper_cache/
